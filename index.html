@@ -4158,10 +4158,7 @@ console.log(
                 * use your public API/domain.
                 */
 
-                const API_BASE_URL =
-                    window.location.hostname === "localhost"
-                        ? "http://localhost:5000"
-                        : "https://ecosystem.jovianex.com";
+                const API_BASE_URL ="https://api.ecosystem.jovianex.com";
 
                 const response = await fetch(
                     `${API_BASE_URL}/api/v1/subscribe`,
@@ -4362,7 +4359,7 @@ console.log(
              CONFIG
           ========================================================= */
     
-          const API_BASE = 'http://localhost:5000/api/v1';
+          const API_BASE = 'https://api.ecosystem.jovianex.com/api/v1';
     
           const API_ORIGIN =
             API_BASE.replace('/api/v1', '');
@@ -7510,7 +7507,7 @@ console.log(
           ========================================================= */
     
           const API_BASE =
-            'http://localhost:5000/api/v1';
+            'https://api.ecosystem.jovianex.com/api/v1';
     
           /*
            * Backend:

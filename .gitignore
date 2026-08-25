@@ -1,0 +1,50 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Docker - Server Only
+# =========================
+Dockerfile
+Dockerfile.*
+docker-compose.yml
+docker-compose.yaml
+docker-compose.*.yml
+docker-compose.*.yaml
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# =========================
+# Build / Generated Files
+# =========================
+dist/
+build/
+.next/
+out/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Temporary / Runtime Files
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
