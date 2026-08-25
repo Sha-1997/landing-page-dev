@@ -1,5 +1,5 @@
-const API_BASE_URL = window.APP_CONFIG?.API_BASE_URL ;
-
+const API_BASE_URL ="https://api.ecosystem.jovianex.com/api/v1";
+        
 async function getMemberCount() {
   try {
     const response = await fetch(`${API_BASE_URL}/users/count`);
